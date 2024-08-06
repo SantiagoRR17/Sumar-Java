@@ -3,7 +3,7 @@
  */
 
 package com.mycompany.sumarnumeros;
-
+import java.util.Scanner;
 /**
  *
  * @author USUARIO
@@ -11,6 +11,12 @@ package com.mycompany.sumarnumeros;
 public class SumarNumeros {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        Scanner sc = new Scanner(System.in);
+        short num1 = sc.nextShort();
+        short num2 = sc.nextShort();
+        System.out.println("Result:"+(num1+num2));
+        
+        
     }
 }
